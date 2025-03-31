@@ -8,17 +8,21 @@
         <meta content="Free Website Template" name="description">
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
-         
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-        <script src="captcha.js"></script>
+        <script>
+            function readAloud() {
+                var content = document.getElementById("about-text").innerText;
+                var speech = new SpeechSynthesisUtterance(content);
+                window.speechSynthesis.speak(speech);
+            }
+        </script>
     </head>
 
     <body>
@@ -104,48 +108,23 @@
         </div>
         <!-- Nav Bar End -->
 
-
-        <!-- Carousel Start -->
-        <div class="carousel">
-            <div class="container-fluid">
-                <div class="owl-carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-1.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h3>Washing & Detailing</h3>
-                            <h1>Keep your Car Newer</h1>
-                            
-                            <a class="btn btn-custom" href="service.html">Explore More</a>
-                        </div>
+        
+        
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>About Us</h2>
                     </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-2.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h3>Washing & Detailing</h3>
-                            <h1>Quality service for you</h1>
-                            
-                            <a class="btn btn-custom" href="service.html">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-3.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h3>Washing & Detailing</h3>
-                            <h1>Exterior & Interior Washing</h1>
-                            
-                            <a class="btn btn-custom" href="service.html">Explore More</a>
-                        </div>
+                    <div class="col-12">
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Carousel End -->
+        <!-- Page Header End -->
         
 
         <!-- About Start -->
@@ -163,149 +142,33 @@
                             <h2>car washing and detailing</h2>
                         </div>
                         <div class="about-content">
-                            <p>
-                                Welcome to SDD Detailing, your trusted destination for premium car washing and detailing services. We take pride in transforming your vehicle with expert care, high-quality products, and attention to detail. Whether you need a quick wash, deep interior cleaning, or a full-service detail, we ensure your car looks and feels brand new.                            </p>
+                            <p id="about-text">
+                                Welcome to SDD Detailing, your trusted destination for premium car washing and detailing services. We take pride in transforming your vehicle with expert care, high-quality products, and attention to detail. Whether you need a quick wash, deep interior cleaning, or a full-service detail, we ensure your car looks and feels brand new.
+
+At SDD Detailing, customer satisfaction is our priority. Our team of skilled professionals uses the latest techniques and eco-friendly products to provide top-notch services that protect your vehicle’s shine and longevity.
+
+Experience the difference with SDD Detailing  where perfection meets passion.
+
+                            </p>
                             <ul>
                                 <li><i class="far fa-check-circle"></i>Seats washing</li>
                                 <li><i class="far fa-check-circle"></i>Vacuum cleaning</li>
                                 <li><i class="far fa-check-circle"></i>Interior wet cleaning</li>
                                 <li><i class="far fa-check-circle"></i>Window wiping</li>
                             </ul>
-                            <a class="btn btn-custom" href="about.html">Learn More</a>
+                            <button class="btn btn-custom" onclick="readAloud()">Read Aloud</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
-
-
-        <!-- Service Start -->
-        <div class="service">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>What We Do?</p>
-                    <h2>Premium Washing Services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-wash-1"></i>
-                            <h3>Exterior Washing</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-wash"></i>
-                            <h3>Interior Washing</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-vacuum-cleaner"></i>
-                            <h3>Vacuum Cleaning</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-seat"></i>
-                            <h3>Seats Washing</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-service"></i>
-                            <h3>Window Wiping</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-service-2"></i>
-                            <h3>Wet Cleaning</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="service-item">
-                            <i class="flaticon-car-wash"></i>
-                            <h3>Ceramic Coating</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
-        
-        
-        
-        
-        
-        
-        
-         <!-- Location Start -->
-         <div class="location">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        
-                       
-                            
-                           
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="location-form">
-                            <h3>Request for a car wash</h3>
-                            <form id="carWashForm" action="submit-form.php" method="POST" onsubmit="return validateCaptcha()">
-                                <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" placeholder="Description" required="required"></textarea>
-                                </div>
-                                <!-- CAPTCHA Section -->
-                                <div class="control-group">
-                                    <label class="joy">Enter the CAPTCHA:</label>
-                                    <div id="image" class="captcha-box"></div>
-                                    <input type="text" id="user-captcha" class="form-control" placeholder="Captcha code" required />
-                                </div>
-                                <div class="control-group">
-                                    <button type="button" class="btn btn-secondary" onclick="generateCaptcha()">
-                                        <i class="fas fa-sync"></i> Refresh
-                                    </button>
-                                </div>
-                                
-                                <br>
-                                <div>
-                                <div>
-                                    <button class="btn btn-custom" type="submit">Send Request</button>
-                                </div>
-                            </form>
-                            <p id="captcha-error" style="color: red;"></p>
-                            <p id="success-message" style="color: white; display: none;">Thank you for your request!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Location End -->
-
-        
         
         
         
 
 
+        <!-- Footer Start -->
         <footer>
             <div class="footer-container">
                 <div class="footer-content">
@@ -333,7 +196,8 @@
                 </div>
             </div>
         </footer>
-        
+        </div>
+        <!-- Footer End -->
         
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
