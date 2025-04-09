@@ -1,3 +1,4 @@
+//** This is Contact php page**//
 <?php
 $success_message = $error_message = '';
 
