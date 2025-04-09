@@ -1,19 +1,55 @@
-<h1 align="center">Hi 👋, I'm Kamaljeet</h1>
-<h3 align="center">A passionate Web developer</h3>
+# SDD Detailing
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jatana1&label=Profile%20views&color=0e75b6&style=flat" alt="jatana1" /> </p>
+Welcome to the **SDD Detailing** project! This repository contains the front-end code for the SDD Detailing website, which provides premium auto detailing services.
 
-- 🔭 I’m currently working on **SDD Detailing**
+## 🚀 Project Overview
+SDD Detailing is a modern, responsive website designed to showcase auto detailing services, pricing, and customer testimonials. The project is built using **HTML, CSS, and JavaScript** and is currently under development in **Visual Studio**.
 
-- 🌱 I’m currently learning **Software development**
+## 🛠 Technologies Used
+- **HTML5**: Structuring the web pages
+- **CSS3**: Styling and layout
+- **JavaScript**: Interactive elements
+- **Bootstrap**: Responsive design framework
+- **Visual Studio**: Development environment
 
-- 👨‍💻 All of my projects are available at [https://github.com/Jatana1/SDD-Detailing](https://github.com/Jatana1/SDD-Detailing)
+## 📌 Features
+- ✅ Responsive design for mobile and desktop
+- ✅ Service descriptions and pricing
+- ✅ Customer testimonials section
+- ✅ Contact form
+- ✅ 'Read Aloud' button for accessibility
 
-- 📫 How to reach me **ks00732@gmail.com**
+## 📂 Project Structure
+```
+SDD-Detailing/
+│── index.html       # Home Page
+│── services.html    # Services Page
+│── contact.html     # Contact Page
+│── assets/
+│   ├── css/
+│   │   ├── style.css    # Main Stylesheet
+│   ├── js/
+│   │   ├── script.js    # JavaScript Functions
+│   ├── images/         # Image Assets
+└── README.md        # Project Documentation
+```
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+## 📖 How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Jatana1/SDD-Detailing.git
+   ```
+2. Open the project folder in **Visual Studio**.
+3. Open `index.html` in your browser to view the website.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> </p>
+## 🤝 Contributing
+Contributions are welcome! Feel free to submit pull requests or open issues to suggest improvements.
+
+## 📩 Contact
+For any questions or feedback, reach out via **[your email/contact info]**.
+
+🔗 **GitHub Repository:** [SDD Detailing](https://github.com/Jatana1/SDD-Detailing)
+
+---
+🚗✨ _SDD Detailing - Bringing your car back to life!_
+
