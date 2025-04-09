@@ -46,7 +46,7 @@ SDD-Detailing/
 Contributions are welcome! Feel free to submit pull requests or open issues to suggest improvements.
 
 ## 📩 Contact
-For any questions or feedback, reach out via **[your email/contact info]**.
+For any questions or feedback, reach out via ks00732@gmail.com
 
 🔗 **GitHub Repository:** [SDD Detailing](https://github.com/Jatana1/SDD-Detailing)
 
