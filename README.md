@@ -1,6 +1,6 @@
 # SDD Detailing
 
-Welcome to the **SDD Detailing** project! This repository contains the front-end code for the SDD Detailing website, which provides premium auto detailing services.
+Welcome to the **SDD Detailing** project!  This repository contains the front-end code for the SDD Detailing website, which provides premium auto detailing services.
 
 ## 🚀 Project Overview
 SDD Detailing is a modern, responsive website designed to showcase auto detailing services, pricing, and customer testimonials. The project is built using **HTML, CSS, and JavaScript** and is currently under development in **Visual Studio**.
